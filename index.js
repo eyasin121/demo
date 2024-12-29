@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ limit: '100mb', extended: true }));
 // }));
 
  app.use((req, res, next) => {
-       res.header('Access-Control-Allow-Origin', 'https://btc-q3zg.onrender.com'); // Replace with your Netlify domain
+       res.header('Access-Control-Allow-Origin', 'https://gleeful-fairy-567193.netlify.app'); // Replace with your Netlify domain
        res.header('Access-Control-Allow-Credentials', 'true');
        res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS'); // Allow the necessary HTTP methods
        res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization'); // Allow necessary headers
